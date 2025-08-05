@@ -4,8 +4,11 @@
 @section('content')
     <div class="row align-items-center">
         <div class="col-md-6">
-            <h1>Hello, I'm John Doe</h1>
-            <p class="lead">Full Stack Developer specializing in Laravel and Flutter</p>
+            <h1>Hello, I'm Ra Ha Til</h1>
+            <p class="lead">
+
+                Flutter developer, tech enthusiast, CEO, student, passionate about coding.
+            </p>
             <p>I build web and mobile applications with clean, efficient code and modern design principles.</p>
             <a href="{{ route('about') }}" class="btn btn-primary">Learn More About Me</a>
         </div>

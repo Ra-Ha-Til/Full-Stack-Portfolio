@@ -11,7 +11,7 @@
             <a href="{{ route('about') }}" class="btn btn-primary">Learn More About Me</a>
         </div>
         <div class="col-md-6 text-center">
-            <img src="{{ asset('storage/profile.jpg') }}" alt="Profile Photo" class="img-fluid rounded-circle profile-img">
+            <img src="{{ asset('storage/pro.jpg') }}" alt="Profile Photo" class="img-fluid rounded-circle profile-img">
         </div>
     </div>
 @endsection

@@ -17,8 +17,8 @@ class PortfolioController extends Controller
             [
                 'image' => 'ssc.jpg',
                 'title' => 'Secondary School Certificate',
-                'year' => '2015',
-                'institution' => 'ABC High School'
+                'year' => '2017',
+                'institution' => 'BM Union High School & College'
             ],
             [
                 'image' => 'hsc.jpg',
@@ -37,34 +37,29 @@ class PortfolioController extends Controller
         return view('education', compact('education'));
     }
 
-    public function specialization()
+    public function specializationSkills()
     {
         $technologies = [
+            'Laravel',
+            'PHP',
+            'Flutter',
+            'Dart',
+            'JavaScript',
             'Python',
             'C++',
-            'C',
-            'Dart',
-            'Flutter',
-            'JavaScript',
-            'Laravel',
-            'PHP'
+            'MySQL'
         ];
 
-        return view('specialization', compact('technologies'));
-    }
-
-    public function skills()
-    {
         $skills = [
-            ['name' => 'Laravel', 'level' => 80],
-            ['name' => 'PHP', 'level' => 85],
-            ['name' => 'JavaScript', 'level' => 75],
-            ['name' => 'Flutter', 'level' => 70],
-            ['name' => 'Python', 'level' => 65],
-            ['name' => 'MySQL', 'level' => 75],
+            ['name' => 'Laravel', 'level' => 85, 'color' => 'bg-primary'],
+            ['name' => 'PHP', 'level' => 80, 'color' => 'bg-info'],
+            ['name' => 'Flutter', 'level' => 75, 'color' => 'bg-success'],
+            ['name' => 'JavaScript', 'level' => 70, 'color' => 'bg-warning'],
+            ['name' => 'Python', 'level' => 65, 'color' => 'bg-secondary'],
+            ['name' => 'MySQL', 'level' => 75, 'color' => 'bg-danger']
         ];
 
-        return view('skills', compact('skills'));
+        return view('specialization-skills', compact('technologies', 'skills'));
     }
 
     public function blog()

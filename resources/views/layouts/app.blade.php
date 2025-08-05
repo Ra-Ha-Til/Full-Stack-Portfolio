@@ -32,7 +32,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('home') }}">My Portfolio</a>
+            <a class="navbar-brand" href="{{ route('home') }}">Ra Ha Til</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -48,7 +48,7 @@
                         <a class="nav-link" href="{{ route('education') }}">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('specialization') }}">Specialization</a>
+                        <a class="nav-link" href="{{ route('skills') }}">Specialization</a>
                     </li>
 
                     <li class="nav-item">

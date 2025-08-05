@@ -4,7 +4,7 @@
 @section('content')
     <div class="row">
         <div class="col-md-4 text-center mb-4">
-            <img src="{{ asset('storage/profile.jpg') }}" alt="Profile Photo" class="img-fluid rounded-circle profile-img">
+            <img src="{{ asset('storage/pro.jpg') }}" alt="Profile Photo" class="img-fluid rounded-circle profile-img">
         </div>
         <div class="col-md-8">
             <h1>About Me</h1>

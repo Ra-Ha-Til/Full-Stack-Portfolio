@@ -64,52 +64,5 @@
             </div>
         </div>
 
-        <!-- Additional Skills Section -->
-        <div class="card mt-4 shadow-sm">
-            <div class="card-header bg-info text-white">
-                <h2 class="h5 mb-0">
-                    <i class="bi bi-tools me-2"></i>Additional Capabilities
-                </h2>
-            </div>
-            <div class="card-body">
-                <div class="row g-3">
-                    @foreach([
-                            'REST API Development',
-                            'Firebase Integration',
-                            'Git Version Control',
-                            'Bootstrap Framework',
-                            'Problem Solving',
-                            'Agile Methodologies'
-                        ] as $skill)
-                            <div class="col-md-4 col-6">
-                                <div class="d-flex align-items-center">
-                                <i class="bi bi-check-circle-fill text-success me-2"></i>
-                                    <span>{{ $skill }}</span>
-                                </div>
-                            </div>
-                    @endforeach
-                </div>
-                </div>
-            </div>
-        </div>
 
-    <style>
-        .hover-effect {
-            transition: all 0.3s ease;
-        }
-
-    .hover-effect:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    }
-
-    .tech-card {
-        transition: all 0.3s ease;
-        cursor: default;
-    }
-
-    .progress-bar {
-        border-radius: 5px;
-    }
-    </style>
 @endsection

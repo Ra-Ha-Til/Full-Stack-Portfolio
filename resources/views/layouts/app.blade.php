@@ -67,11 +67,58 @@
         @yield('content')
     </div>
 
-    <footer class="bg-dark text-white text-center py-3 mt-5">
+    <!-- New Footer Section for Home Page Only -->
+    <footer class="bg-dark text-white py-4 mt-5">
         <div class="container">
-            <p>&copy; {{ date('Y') }} My Portfolio. All rights reserved.</p>
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h5>Connect With Me</h5>
+                    <ol class="list-unstyled d-flex flex-wrap gap-3">
+                        <li>
+                            <a href="mailto:your@email.com" class="text-white text-decoration-none">
+                                <i class="bi bi-envelope-fill me-2"></i> Email
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/yourusername" class="text-white text-decoration-none">
+                                <i class="bi bi-github me-2"></i> GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/yourprofile" class="text-white text-decoration-none">
+                                <i class="bi bi-linkedin me-2"></i> LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/yourhandle" class="text-white text-decoration-none">
+                                <i class="bi bi-twitter me-2"></i> Twitter
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <p class="mb-1">© {{ date('Y') }}Ra Ha Til. All rights reserved.</p>
+                    <p class="mb-0">Built it by Ra Ha Til</p>
+                </div>
+            </div>
         </div>
     </footer>
+
+    <style>
+        footer a {
+            transition: all 0.3s ease;
+        }
+
+        footer a:hover {
+            color: var(--bs-primary) !important;
+            transform: translateX(5px);
+        }
+
+        .list-unstyled {
+            padding-left: 0;
+            list-style: none;
+        }
+    </style>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

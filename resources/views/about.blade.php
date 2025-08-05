@@ -4,13 +4,12 @@
 @section('content')
     <div class="row">
         <div class="col-md-4 text-center mb-4">
-            <img src="{{ asset('storage/pro.jpg') }}" alt="Profile Photo" class="img-fluid rounded-circle profile-img">
+            <img src="{{ asset('storage/profile/profile.jpg') }}" alt="Profile Photo"
+                class="img-fluid rounded-circle profile-img">
         </div>
         <div class="col-md-8">
             <h1>About Me</h1>
-            <p class="lead">Full Stack Developer with 5+ years of experience</p>
 
-            <h3 class="mt-4">Bio</h3>
             <p>Hello! I'm Md Rahatil Rahaman, a passionate Flutter Developer at the beginner level and the Founder &
                 CEO of
                 Ra Ha Til Academy. I’m currently pursuing a degree in Computer Science and Engineering at Daffodil
